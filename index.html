@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TSRTC BuspassApplication</title>
+</head>
+<body>
+  <center>
+    <img src="https://paytm-travel-mum-akamai.paytm.com/Bus/operatorlogo/tsrtc-logo.jpg" alt="TSRTCLogo" width="100">
+  </center>
+
+  <form action="./Submit.html" method="get" enctype="text/plain">
+    <fieldset>
+    <legend><strong>ApplicantDetails</strong></legend>
+
+    <label for="first name">First Name<span style="color:red;">*</span></label><br>
+    <input type="text"id="first name" name="first name" maxlength="20"required><br><br>
+    <label for="last name">last Name<span style="color:red;">*</span></label><br>
+    <input type="text"id="last name" name="last name"required><br><br>
+    <label for="DOB">Date of Birth<span style="color:red;">*</span></label><br>
+    <input type="Date"id="DOB" name="DOB"required><br><br>
+    <label>Gender<span style="color:red;">*</span></label><br>
+    <input type="radio"id="female" name="gender" value="female"required>
+    <lable for value="female">female</lable>
+    <input type="radio"id="male" name="gender" value="male"required>
+    <lable for value="male">male</lable><br><br>
+    <label for="aadhar">Aadhar No<span style="color:red;">*</span></label><br>
+    <input type="text"id="aadhar" name="aadhar"min length="12" maxlength="12"required><br><br>
+    <label for="Mobile">Mobile no<span style="color:red;">*</span></label><br>
+    <input type="tel"id="Mobile" name="Mobile"min length="10" maxlength="10"required><br><br>
+    <label for="Email">Email<span style="color:red;">*</span></label><br>
+    <input type="email"id="email" name="email"required><br><br>
+    <label for="Photo">Photo<span style="color:red;">*</span></label><br>
+    <input type="file"id="photo" name="photo" accept="image/*"><br><br>
+    <fieldset>
+    <legend><strong>ApplicantDetails</strong></legend>
+    <label type="address">Applicant'sAddress<span></span></label><br>
+    <textarea id="address"name="address"maxlength="150"required></textarea><br><br>
+    <label type="District">District<span></span></label><br>
+    <select id="District"name="District"required>
+    <option value="">--Select--</option>
+   <option value="HYDERABAD">HYDERABAD</option>
+      <option value="RANGAREDDY">RANGAREDDY</option>    
+    </select><br><br>
+    <label for="Mandal">Mandal<span style="color:red;">*</span></label><br>
+    <input type="text"id="Mandal" name="Mandal"required><br><br>
+    <label for="Village">Village<span style="color:red;">*</span></label><br>
+    <input type="text"id="Village" name="Village"required><br><br>
+    <label for="Pincode">Pincode<span style="color:red;">*</span></label><br>
+    <input type="text"id="Pincode" name="Pincode"min length="6" maxlength="6"required><br><br>
+    <input type="submit">
+    <fieldset>
+    <form>
+
+<body>
+<html>
